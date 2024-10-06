@@ -10,3 +10,26 @@ Penyewaan sepeda dalam dataset ini memiliki tren yang fluktuatif. Hal ini ditand
 
 **2. Perbandingan Registered User dan Casual User**
 Perbandingan yang terjadi cukup signifikan dengan didominasi pelanggan dan hanya sedikit pengguna umumnya. 
+
+#Install Dependencies
+
+## Set Enviroment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter
+pip install -r requirements.txt
+```
+
+## Set Enviroment - _Shell/Terminal_
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+
+## Run Streamlit App
+```
+streamlit run dashboard.py
+```
